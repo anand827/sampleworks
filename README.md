@@ -1,6 +1,6 @@
 # UI-Boilerplate
 
-1.Renmae your root folder name(UI-Boilerplate) as your project name
+1.Rename your root folder name(UI-Boilerplate) as your project name
 2.Create a folder name design and 3rd-party for your local reference
 3.Download your dependency file set your path in cmd prompt by running the command [npm install]
 4.After completion run the project by command [gulp]
@@ -9,7 +9,7 @@
 PROJECT STRUCTURE
 -----------------
 UI-Boilerplate--  --|---3rd-party    		--put your css and js library orginal source here for reference
-				    |---design       		--put your jpg and psd design here
+				    |---design       		--put your jpg and psd design here as per date
 				    |---src          		--project source files
 					    |---html     		--project root files and folder
 						|---css    			--generated css file
