@@ -8,27 +8,27 @@
 
 PROJECT STRUCTURE
 -----------------
-UI-Boilerplate--  --|---3rd-party    		--put your css and js library orginal source here for reference
-				    |---design       		--put your jpg and psd design here as per date
-				    |---src          		--project source files
-					    |---html     		--project root files and folder
+UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source here for reference
+				|---design       			--put your jpg and psd design here in folder as per date
+				|---src          			--project source files
+					|---html     			--project root files and folder
 						|---css    			--generated css file
 						|---images 			--project whole images 
-						    |---compressed 	-- optmized image folder after running gulp command
+							|---compressed 	-- optmized image folder after running gulp command
 						|---js
-						    |---lib  		--3rd party library script directory for whole project
-						    |---site 		--common script directory for whole project
+							|---lib  		--3rd party library script directory for whole project
+							|---site 		--common script directory for whole project
 						|---fonts  			--required fonts for entire project
 						index.html         	--root page
-					    |---sass     		--project sass root files
-						    |--base    		--contains reset element styles and fonts
-							|--helpers 		--contains variables and mixins 
-							|--layout  		--contains header and footer
-							|--media   		--contains all media queries 
-							|--pages   		--contains all pages syles
-							|--vendors 		--contains 3rd-party scss framework
-							style.scss 		--imported scss partial files here
-				    |---.gitignore
-				    |---gulpfile.js
-				    |---package.json
-				    |---README.md
+					|---sass     			--project sass root files
+						|--base    			--contains reset element styles and fonts
+						|--helpers 			--contains variables and mixins 
+						|--layout  			--contains header and footer
+						|--media   			--contains all media queries 
+						|--pages   			--contains all pages syles
+						|--vendors 			--contains 3rd-party scss framework
+						style.scss 			--imported scss partial files here
+				|---.gitignore
+				|---gulpfile.js
+				|---package.json
+				|---README.md
