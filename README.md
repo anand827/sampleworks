@@ -14,7 +14,7 @@ UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source
 					|---html     			--project root files and folder
 						|---css    			--generated css file
 						|---images 			--project whole images 
-							|---compressed 	-- optmized image folder after running gulp command
+							|---compressed 	--optmized image folder after running gulp command
 						|---js
 							|---lib  		--3rd party library script directory for whole project
 							|---site 		--common script directory for whole project
