@@ -1,0 +1,70 @@
+//Sprite
+@mixin sprite($pos:null null, $s-width:0px, $s-height:0px) {
+    background:url('#{$image-path}sprite.png') no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: $s-width;
+    height: $s-height;
+    background-position: $pos;
+}
+
+//Em font converter
+@function fontEm($size) {
+    $remSize: $size /$base-font;
+    @return $remSize * 1em;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: fontEm($size);
+}
+
+//Em line-height converter
+@function lineEm($size) {
+    $remSize: $size / 16px;
+    @return $remSize * 1em;
+}
+
+@mixin line-height($size) {
+    line-height: $size;
+    line-height: lineEm($size);
+}
+
+//Position
+@mixin position($positon,
+$top:null,
+$right:null,
+$bottom:null,
+$left:null) {
+    position: $positon;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+//Button
+@mixin button() {
+    background-color: $blue-color;
+    color: $white-color;
+    border: none;
+    padding: 17px 55px 15px 20px;
+    @include font-size(20px);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+        background-color: $gray-color;
+        color: $white-color;
+    }
+    &:focus {
+        color: $white-color;
+    }
+}
+
+//Common Head title
+@mixin title() {
+    @include font-size(30px);
+    color: $color;
+}

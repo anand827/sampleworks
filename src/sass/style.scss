@@ -1,0 +1,9 @@
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'vendors/bootstrap/bootstrap';
+@import 'base/base';
+@import 'layout/header';
+@import 'pages/home';
+//Include other pages starts here
+@import 'layout/footer';
+@import 'media/media';

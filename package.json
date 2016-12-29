@@ -1,0 +1,29 @@
+{
+  "name": "ui-boilerplate",
+  "version": "1.0.0",
+  "description": "UI Boilerplate",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://rage2.git/wilson.e/UI-Bolierplate.git"
+  },
+  "keywords": [
+    "UI Boilerplate"
+  ],
+  "author": "UI-Rage",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-image": "^2.7.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^1.9.1"
+  }
+}
