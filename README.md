@@ -6,6 +6,15 @@
 4.After completion run the project by command [gulp]
 5.For Image Optmization run the command [gulp-image]
 
+THINGS TO FOLLOW
+-----------------
+1. SASS.
+2. BEM concept.
+3. At last optimize the images.
+
+#### IMPORTANT: PLEASE USE THE BOOTSTRAP GRID ALONE. DO NOT USE THE FULL BOOTSTRAP.
+#### EXCEPT THE GRID OTHER BOOTSTRAP COMPONENTS ARE COMMENTED IF YOU ARE IN-NEED OF ANY COMPONENTS PLEASE UN-COMMENT IT. 
+
 PROJECT STRUCTURE
 -----------------
 UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source here for reference
