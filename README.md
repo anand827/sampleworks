@@ -27,11 +27,11 @@
 # PROJECT STRUCTURE
 -------------------
 UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source here for reference
-
+				|
 				|---design       			--put your jpg and psd design here in folder as per date
-
+				|
 				|---src          			--project source files
-
+					|
 					|---html     			--project root files and folder
 						|---css    			--generated css file
 						|---images 			--project whole images 
@@ -50,7 +50,7 @@ UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source
 						|--pages   			--contains all pages syles
 						|--vendors 			--contains 3rd-party scss framework
 						style.scss 			--imported scss partial files here
-						
+
 				|---.gitignore
 				|---gulpfile.js
 				|---package.json
