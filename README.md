@@ -1,32 +1,37 @@
 # UI-Boilerplate
 
-# Instructions
+#Prerequisites
 --------------
+1.Node Js Latest Version [GetHere](https://nodejs.org/en/)
+2.VScode Editor [GetHere](https://code.visualstudio.com/) or any other
+
+# Usage
+-------
 1. Download the zip file in your specified path
-1. Rename your root folder name(UI-Boilerplate) as your PROJECT NAME.
-2. Create a folder name `design` and `3rd-party` for your local reference.
-3. Download your dependency files by running the command `npm install` in VScode command line.
-4. After completion run the project by command `gulp`.
-5. For Image Optmization run the command `gulp-image`.
+2. Rename your root folder name(UI-Boilerplate) as your PROJECT NAME.
+3. Create a folder name `design` and `3rd-party` for your local reference.
+4. Navigate your project path in `CMD`
+5. Download your dependency files by running the command `npm install` in command line.
+6. After completion run the project by command `gulp`.
+7. For Image Optmization run the command `gulp-image`.
 
 # VScode Shortcuts
 ------------------
-1. Command prompt   - CTRL + ~
-2. Git 				- CTRL + SHIFT + G
-3. File Exploerer	- CTRL + SHIFT + E
-4. Command Panel 	- CTRL + SHIFT + P
+1. Command prompt   - `CTRL + ~`
+2. Git 				- `CTRL + SHIFT + G`
+3. File Exploerer	- `CTRL + SHIFT + E`
+4. Command Panel 	- `CTRL + SHIFT + P`
 
 
-# THINGS TO FOLLOW
+# Things to Follow
 ------------------
-1. SASS.
-2. BEM concept.
+1. SASS.[Readmore](http://sass-lang.com/guide)
+2. BEM concept.[Readmore](https://en.bem.info/methodology/css/)
 3. At last optimize the images.
 
-#### IMPORTANT: PLEASE USE THE BOOTSTRAP GRID ALONE. DO NOT USE THE FULL BOOTSTRAP.
-#### EXCEPT THE GRID OTHER BOOTSTRAP COMPONENTS ARE COMMENTED IF YOU ARE IN-NEED OF ANY COMPONENTS PLEASE UN-COMMENT IT. 
-
-# PROJECT STRUCTURE
+#### Important: please use the bootstrap grid alone. do not use the full bootstrap.except the grid other bootstrap components are commented if you are in-need of any components please un-comment it from bootstrap.scss. 
+#### This is a Boilerplate please adjust ae per your project requirement.
+# Template Structure
 -------------------
 
 UI-Boilerplate--|
@@ -45,7 +50,6 @@ UI-Boilerplate--|
 							|---site 		--common script directory for whole project
 						|---fonts  			--required fonts for entire project
 						index.html         	--root page
-
 					|---sass     			--project sass root files
 						|--base    			--contains reset element styles and fonts
 						|--helpers 			--contains variables and mixins 
@@ -54,7 +58,6 @@ UI-Boilerplate--|
 						|--pages   			--contains all pages syles
 						|--vendors 			--contains 3rd-party scss framework
 						style.scss 			--imported scss partial files here
-
 				|---.gitignore
 				|---gulpfile.js
 				|---package.json
