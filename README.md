@@ -26,8 +26,8 @@
 
 # PROJECT STRUCTURE
 -------------------
-------------------------------------------
-UI-Boilerplate--|
+
+#UI-Boilerplate--|
 
 				|---3rd-party    			--put your css and js library orginal source here for reference
 				
