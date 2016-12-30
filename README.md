@@ -1,5 +1,8 @@
 	# UI-Boilerplate
 
+	# Instructions
+	--------------
+	1. Download the zip file in your specified path
 	1. Rename your root folder name(UI-Boilerplate) as your PROJECT NAME.
 	2. Create a folder name design and 3rd-party for your local reference.
 	3. Download your dependency files by running the command [npm install] in VScode command line.
@@ -8,11 +11,10 @@
 
 	# VScode Shortcuts
 	------------------
-
 	1. Command prompt 	- CTRL + ~
-	2. GIT 				- CTRL + SHIFT + G
-	3. FILE EXPLORER 	- CTRL + SHIFT + E
-	4. COMMAND PANEL 	- CTRL + SHIFT + P
+	2. Git 				- CTRL + SHIFT + G
+	3. File Exploerer	- CTRL + SHIFT + E
+	4. Command Panel 	- CTRL + SHIFT + P
 
 
 	# THINGS TO FOLLOW
@@ -38,6 +40,8 @@
 						|---html     			--project root files and folder
 							|---css    			--generated css file
 							|---images 			--project whole images 
+								|---about       --about page images
+								|---product     --product page images
 								|---compressed 	--optmized image folder after running gulp command
 							|---js
 								|---lib  		--3rd party library script directory for whole project
