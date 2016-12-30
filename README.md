@@ -26,7 +26,7 @@
 
 # PROJECT STRUCTURE
 -------------------
-UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source here for reference<br>
+UI-Boilerplate--|---3rd-party    			--put your css and js library orginal source here for reference
 				|---design       			--put your jpg and psd design here in folder as per date
 				|---src          			--project source files
 					|---html     			--project root files and folder
