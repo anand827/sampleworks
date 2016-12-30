@@ -4,10 +4,10 @@
 --------------
 1. Download the zip file in your specified path
 1. Rename your root folder name(UI-Boilerplate) as your PROJECT NAME.
-2. Create a folder name design and 3rd-party for your local reference.
-3. Download your dependency files by running the command [npm install] in VScode command line.
-4. After completion run the project by command [gulp].
-5. For Image Optmization run the command [gulp-image].
+2. Create a folder name `design` and `3rd-party` for your local reference.
+3. Download your dependency files by running the command `npm install` in VScode command line.
+4. After completion run the project by command `gulp`.
+5. For Image Optmization run the command `gulp-image`.
 
 # VScode Shortcuts
 ------------------
@@ -31,14 +31,11 @@
 
 UI-Boilerplate--|
 
-				|---3rd-party    			--put your css and js library orginal source here for reference
-				
-				|---design       			--put your jpg and psd design here in folder as per date
-				
-				|---src          			--project source files
-					
+				|---3rd-party    			--put your css and js library orginal source here for reference				
+				|---design       			--put your jpg and psd design here in folder as per date				
+				|---src          			--project source files					
 					|---html     			--project root files and folder
-						|---css    			--generated css file
+						|---css    			--generated css file for your project
 						|---images 			--project whole images 
 							|---about       --about page images
 							|---product     --product page images
