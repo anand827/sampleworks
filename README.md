@@ -11,7 +11,7 @@
 
 # VScode Shortcuts
 ------------------
-1. Command prompt 	- CTRL + ~
+1. Command prompt   - CTRL + ~
 2. Git 				- CTRL + SHIFT + G
 3. File Exploerer	- CTRL + SHIFT + E
 4. Command Panel 	- CTRL + SHIFT + P
