@@ -1,9 +1,9 @@
 # UI-Boilerplate
 
-#Prerequisites
+# Prerequisites
 --------------
-1.Node Js Latest Version [GetHere](https://nodejs.org/en/).
-2.VScode Editor [GetHere](https://code.visualstudio.com/) or any other
+1. Node Js Latest Version [GetHere](https://nodejs.org/en/).
+2. VScode Editor [GetHere](https://code.visualstudio.com/) or any other
 
 # Usage
 -------
