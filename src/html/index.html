@@ -25,20 +25,53 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
+    <header> </header>
     <main>
         <section>
             <h1 class="mainTitle">Hello world!</h1>
         </section>
+        <section>
+            <div class="sliderContainer">
+                <div class="sliderContainer__left">
+                    <ul class="sliderContainer__listHead">
+                        <li class="sliderContainer__list"> <a class="sliderContainer__listLink sliderContainer__listLink--active" href="javascritp:;" title="" data-list="1">First Child</a> </li>
+                        <li class="sliderContainer__list"> <a data-list="2" class="sliderContainer__listLink" href="javascritp:;" title="">Second Child</a> </li>
+                        <li class="sliderContainer__list"> <a data-list="3" class="sliderContainer__listLink" href="javascritp:;" title="">Third Child</a> </li>
+                        <li class="sliderContainer__list"> <a data-list="4" class="sliderContainer__listLink" href="javascritp:;" title="">Fourth Child</a> </li>
+                    </ul>
+                </div>
+                <div class="sliderContainer__right">
+                    <ul class="sliderContainer__listHead slider">
+                        <li class="sliderContainer__list" data-image="1"> <img class="sliderContainer__sliderImage" src="images/1.jpg" alt="Image1"> </li>
+                        <li class="sliderContainer__list" data-image="2"> <img class="sliderContainer__sliderImage" src="images/2.jpg" alt="Image2"> </li>
+                        <li class="sliderContainer__list" data-image="3"> <img class="sliderContainer__sliderImage" src="images/3.jpg" alt="Image3"> </li>
+                        <li class="sliderContainer__list" data-image="4"> <img class="sliderContainer__sliderImage" src="images/4.jpg" alt="Image4"> </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="zoomSlider">
+                <div class="zoomSlider__inner">
+                    <img class="sliderContainer__innnerImage" src="images/1.jpg" alt="Image1">
+                </div>
+                <div class="zoomSlider__inner">
+                    <img class="sliderContainer__innnerImage" src="images/2.jpg" alt="Image2">
+                </div>
+                <div class="zoomSlider__inner">
+                    <img class="sliderContainer__innnerImage" src="images/3.jpg" alt="Image3">
+                </div>
+                <div class="zoomSlider__inner">
+                    <img class="sliderContainer__innnerImage" src="images/4.jpg" alt="Image4">
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer> </footer>
     <!--Script-->
     <script src="js/lib/jquery-3.1.1.js"></script>
     <script src="js/lib/bootstrap.js"></script>
+    <script src="js/lib/slick.js"></script>
     <script src="js/site/common.js"></script>
 </body>
 

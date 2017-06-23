@@ -6,3 +6,89 @@
     text-align: center;
     width: 100%;
 }
+
+.sliderContainer {
+    display: inline-block;
+    width: 100%;
+    &__left {
+        float: left;
+        width: 50%;
+        min-height: 768px;
+        padding-top: 10%;
+    }
+    &__right {
+        float: right;
+        width: 50%;
+        min-height: 768px;
+    }
+    &__listHead {
+        padding: 0;
+    }
+    &__list {
+        padding: 10px;
+        text-align: center;
+        outline: none;
+    }
+    &__listLink {
+        color: $black;
+        &--active {
+            color: aqua;
+            text-decoration: underline;
+        }
+    }
+}
+
+.zoomSlider {
+    display: table;
+    width: 750px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    &__inner {
+        float: left;
+        width: 375px;
+        cursor: pointer;
+        overflow: hidden;
+        &:hover {
+            -webkit-transition: all 200ms ease-in;
+            -webkit-transform: scale(1.1); 
+            -ms-transition: all 200ms ease-in;
+            -ms-transform: scale(1.1); 
+            -moz-transition: all 200ms ease-in;
+            -moz-transform: scale(1.1);
+            transition: all 200ms ease-in;
+            transform: scale(1.1);   
+        }
+//        &:first-child {
+//            position: absolute;
+//            top: 0;
+//            left: 0;
+//        }
+//        &:nth-child(2) {
+//            position: absolute;
+//            top: 0;
+//            right: 0;
+//        }
+//        &:nth-child(3) {
+//            position: absolute;
+//            bottom: 0;
+//            right: 0;
+//        }
+//        &:last-child {
+//            position: absolute;
+//            bottom: 0;
+//            left: 0;
+//        }
+//        &:hover {
+//            width: 100%;
+//            height: 100%;
+//            z-index: 999;
+//            -webkit-transition: all 1s ease-in-out;
+//            -o-transition: all 1s ease-in-out;
+//            transition: all 1s ease-in-out;
+//        }
+    }
+}
